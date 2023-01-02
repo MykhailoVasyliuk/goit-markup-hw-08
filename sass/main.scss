@@ -1,0 +1,32 @@
+// Палітра
+@import './utils/veriables';
+@import './utils/visually-hidden';
+
+// Базові стилі
+@import './base/reset';
+@import './base/base';
+@import './base/container';
+
+// Компоненти
+@import './components/logo';
+@import './components/btn';
+@import './components/checkbox';
+@import './components/navigation';
+@import './components/contacts';
+@import './components/socials-list';
+@import './components/menu';
+
+// Стилі секцій
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/work';
+@import './layouts/team';
+@import './layouts/stable-clients';
+@import './layouts/footer';
+
+@import './layouts/filter';
+@import './layouts/portfolio';
+@import './layouts/backdrop';
+@import './layouts/modal';
+

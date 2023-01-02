@@ -1,0 +1,56 @@
+.socials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+     // Сірі іконки
+    &__icon_gray {
+        fill: var(--main-icon-color);
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+     
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+
+        border-radius: 50%;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+ 
+    &__link_light {
+        background-color: var(--main-color);
+        transition-property: background-color;
+    }   
+        
+
+    &__link:hover &__icon,
+    &__link:focus &__icon {
+        fill: var(--main-color);
+    }
+
+    &__link:hover,
+    &__link:focus {
+        background-color: var(--secondary-text-color);
+    }
+ // Сірі іконки
+
+//  Білі іконки
+    &__icon_light {
+        fill: var(--main-color);
+    }
+
+    &__link_grey {
+        background-color: rgba(255, 255, 255, 0.1);
+
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
